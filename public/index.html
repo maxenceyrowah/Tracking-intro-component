@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../tracking.css" />
+
+  <title>Frontend Mentor | Project tracking intro component</title>
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="tracking">
+    <div class="tracking__wrapper">
+      <div class="tracking__wrapper__nav">
+        <div class="tracking__wrapper__logo">
+          <img src="./images/logo.svg" alt="tracking logo" />
+        </div>
+
+        <div class="tracking__wrapper__menu">
+          <ul class="tracking__menu__nav" id="tracking__link">
+            <li class="tracking__menu__navItem">Product</li>
+            <li class="tracking__menu__navItem">Features</li>
+            <li class="tracking__menu__navItem">Pricing</li>
+            <li class="tracking__menu__navItem tracking__menu__navItem--active">
+              Login
+            </li>
+          </ul>
+        </div>
+
+        <div class="tracking__neutral"></div>
+
+        <div class="hamburger__menu">
+          <a  href="javascript:void(0);" class="tracking__wrapper__openHamburger" onclick="openHambuger()">
+            <img src="./images/icon-hamburger.svg" alt="" id="tracking__image" />
+          </a>
+        </div>
+      </div>
+
+      <div class="tracking__background"></div>
+      <div class="tracking__wrapperContents">
+        <div class="responsive__blockOne">
+          <div class="tracking__wrapperContents__header">
+            <span class="tracking__wrapperContents__header--color">New</span>
+            <span class="tracking__wrapperContents__header--style">Monograph Dashboard</span>
+          </div>
+
+          <div class="tracking__wrapperContents__body">
+            <h1 class="title">Powerful insights into your team</h1>
+            <p class="subtitle">
+              Project planning and time tracking for agile teams
+            </p>
+          </div>
+
+          <div class="tracking__wrapperContents__footer">
+            <span class="tracking__button">schedule a demo</span>
+            <span class="tracking__text">to see a preview </span>
+          </div>
+        </div>
+
+        <div class="responsive__blockTwo">
+          <img src="./images/illustration-devices.svg" alt="" class="illustration__style" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a
+        href="#">Maxence Yrowah</a>.
+    </p>
+  </footer>
+  <script src="../app/js/tracking.js"></script>
+</body>
+
+</html>
