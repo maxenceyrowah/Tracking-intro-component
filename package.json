@@ -1,0 +1,19 @@
+{
+  "name": "tracking-intro-component",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./app/sass/tracking.scss ./tracking.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxenceyrowah/Tracking-intro-component.git"
+  },
+  "author": "Maxence Yrowah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxenceyrowah/Tracking-intro-component/issues"
+  },
+  "homepage": "https://github.com/maxenceyrowah/Tracking-intro-component#readme"
+}
