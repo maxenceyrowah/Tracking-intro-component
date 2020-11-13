@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./app/sass/tracking.scss ./tracking.css"
+    "sass": "sass --watch ./public/sass/tracking.scss ./public/tracking.css"
   },
   "repository": {
     "type": "git",
